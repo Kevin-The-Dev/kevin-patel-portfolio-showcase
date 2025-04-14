@@ -6,29 +6,32 @@ const projectsData = [
   {
     title: "Inspire 2025 Tech Fest Website",
     description: "Built and led official website for tech fest with 5.7K+ views, 28+ events.",
-    link: "#",
+    link: "https://kevinpatel.me/inspire2025",
     demo: true
   },
   {
     title: "Sports Week Registration System",
     description: "Automated participant management system for college sports week.",
-    link: "#"
+    link: "https://kevinpatel.me/sportsweek",
+    demo: true
   },
   {
     title: "Google Cloud Study Jam Leaderboard",
     description: "Real-time leaderboard tracker using auto CSV uploads.",
-    link: "#"
+    link: "https://kevinpatel.me/gcpjam",
+    demo: true
   },
   {
     title: "Student Collaboration Platform",
     description: "React + Node.js platform with real-time messaging for 200+ students.",
-    link: "#",
+    link: "https://github.com/Kevin-The-Dev/student-collab",
     github: true
   },
   {
     title: "Certificate Management System (SIH)",
     description: "Blockchain-powered system for secure certificate issuance using Solidity.",
-    link: "#"
+    link: "https://github.com/Kevin-The-Dev/sih-certificates",
+    github: true
   }
 ];
 

@@ -5,7 +5,9 @@ import { FileDown } from 'lucide-react';
 const FloatingButton = () => {
   return (
     <motion.a
-      href="#"
+      href="https://drive.google.com/file/d/1I-AhePUIPXPWE0sFCESh2fpq_bhj-Ric/view"
+      target="_blank"
+      rel="noopener noreferrer"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       whileHover={{ scale: 1.1 }}

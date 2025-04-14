@@ -1,32 +1,38 @@
 
 import { motion } from 'framer-motion';
-import { Mail, Github, Linkedin, FileText } from 'lucide-react';
+import { Mail, Github, Linkedin, FileText, Globe } from 'lucide-react';
 
 const Contact = () => {
   const socialLinks = [
     {
       name: 'Email',
-      href: 'mailto:kevin@example.com',
+      href: 'mailto:patelkevinkumar204@gmail.com',
       icon: Mail,
       color: 'text-red-500',
     },
     {
       name: 'GitHub',
-      href: '#',
+      href: 'https://github.com/Kevin-The-Dev',
       icon: Github,
       color: 'text-gray-800',
     },
     {
       name: 'LinkedIn',
-      href: '#',
+      href: 'https://www.linkedin.com/in/devkevin/',
       icon: Linkedin,
       color: 'text-blue-600',
     },
     {
       name: 'Resume',
-      href: '#',
+      href: 'https://drive.google.com/file/d/1I-AhePUIPXPWE0sFCESh2fpq_bhj-Ric/view',
       icon: FileText,
       color: 'text-green-600',
+    },
+    {
+      name: 'Portfolio',
+      href: 'https://kevinpatel.me/',
+      icon: Globe,
+      color: 'text-purple-600',
     },
   ];
 
